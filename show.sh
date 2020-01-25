@@ -19,6 +19,13 @@ then
 	echo "Sr.(a) ${NOME} ja tem mais de 18, esta liberado"
 	echo "pode entra no show"
 
+#Teste com ElIF
+
+elif [[ ${IDADE} -ge 16 ]]
+	then
+		echo "Sr.(a) ${NOME} voce tem 16 ou 17 anos"
+		echo "esta liberado para o show 2"
+	
 #Se for falso
 else
 	echo "Sr.(a) ${NOME} infelizmento ainda não tem 18 anos"
